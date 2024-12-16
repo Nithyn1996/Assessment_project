@@ -16,10 +16,10 @@ function App() {
       <div className="App">
         <div className="container-fluid">
           <div className="row">
-            <div className="col-xs-5 col-sm-5 col-md-4 col-lg-2 p-0">
+            <div className="col-xs-5 col-sm-5 col-md-4 col-lg-2 col-xl-3 col-xxl-2 p-0">
               <Sidebar />
             </div>
-            <div className="col-xs-7 col-sm-6 col-md-8 col-lg-10 main-content">
+            <div className="col-xs-7 col-sm-6 col-md-8 col-lg-10 col-xl-9 col-xxl-10 main-content">
               <Routes> <Route path="/" element={<DashboardPage />} /> <Route path="/project" element={<ProjectPage />} /> <Route path="/client" element={<ClientPage />} /> <Route path="/task" element={<TaskPage />} /> <Route path="/message" element={<MessagePage />} /> <Route path="/billing" element={<BillingPage />} /> </Routes>
             </div>
           </div>
