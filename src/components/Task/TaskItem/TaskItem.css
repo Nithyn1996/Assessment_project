@@ -1,0 +1,39 @@
+/* src/components/Task/TaskItem.css */
+
+.task-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #e9ecef;
+}
+
+.task-name {
+    flex: 1;
+    padding: 0 10px;
+}
+
+.task-name.completed {
+    text-decoration: line-through;
+    color: #6c757d;
+}
+
+.task-actions {
+    display: flex;
+    align-items: center;
+}
+
+.task-star {
+    cursor: pointer;
+    margin-right: 10px;
+    color: #ffc107;
+}
+
+.task-star.important {
+    color: #dc3545;
+}
+
+.task-edit, .task-delete {
+    cursor: pointer;
+    margin-right: 10px;
+    font-size: 14px;
+}

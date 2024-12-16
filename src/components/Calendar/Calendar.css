@@ -1,0 +1,52 @@
+/* src/components/Calendar/Calendar.css */
+
+.calendar-container {
+    width: 100%;
+    /* max-width: 400px; */
+    margin: 0 auto;
+    /* border: 1px solid #ccc; */
+    background-color: #fff;
+    border-radius: 1rem;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.calendar-header {
+    display: flex;
+    /* background-color: #f1f1f1; */
+    padding: 10px 0;
+    text-align: center;
+}
+
+.day-header {
+    flex: 1;
+    font-weight: bold;
+}
+
+.calendar-body {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+}
+
+.day {
+    width: calc(100% / 7);
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid #eee; */
+}
+
+.current-day {
+    background-color:  rgb(100 115 255);
+    color: #fff;
+    /* height: 50px; */
+    border: 1px solid  rgb(100 115 255);
+    border-radius: 20rem;
+}
+
+.arrow-icon {
+    color: rgb(100 115 255);
+}
