@@ -1,0 +1,10 @@
+/* src/components/Messages/MessageList.css */
+
+.message-list {
+    background-color: #fff;
+    /* border-radius: 5px; */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    border-radius: 1rem;
+    /* border: 1px solid #000; */
+}

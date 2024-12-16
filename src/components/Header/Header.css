@@ -1,0 +1,68 @@
+/* src/components/Header/Header.css */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+    border-bottom: 1px solid #dee2e6;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 1rem;
+}
+
+.header-left {
+    display: flex;
+    /* flex-direction: column; */
+}
+
+.project-name {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.status-label {
+    background-color: #dc3545;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+.team-members {
+    display: flex;
+    margin-right: 20px;
+}
+
+.team-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: -10px;
+    border: 2px solid #fff;
+}
+
+.task-progress, .due-date {
+    margin-left: 20px;
+    font-size: 16px;
+}
+
+.profile-area {
+    cursor: pointer;
+    padding: 5px;
+}
+.profile-area:hover {
+    background-color: #f1f1f1;
+    border-radius: 10px;
+}
+
+.search-icon {
+    border: none !important;
+    background: rgb(245 240 250) !important;
+}

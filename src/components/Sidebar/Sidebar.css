@@ -1,0 +1,79 @@
+/* src/components/Sidebar/Sidebar.css */
+
+.sidebar {
+  /* width: 15rem; */
+  background-color: #fff;
+  color: #000;
+  max-height: 100vh;
+  min-height: 90vh;
+  margin: 2rem;
+  border-radius: 1rem;
+  padding-top: 20px;
+  display: flex  ;
+      flex-direction: column;
+      justify-content: space-evenly;
+  
+}
+
+.head-font{
+  font-family:sans-serif;
+}
+.sidebar-menu {
+  list-style-type: none;
+  padding: 0;
+}
+
+.menu-item {
+  padding: 10px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-left: 1rem;
+}
+
+.menu-item.active,
+.menu-item:hover {
+  background-color: rgb(240 240 255);
+    border-radius: 1rem 0 0 1rem ;
+}
+
+.upgrade {
+  background: linear-gradient(rgb(192 135 235), #9198e5);
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 1rem;
+  
+}
+
+.menu-item.upgrade:hover {
+  background-color: #218838;
+}
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+}
+.nav-link.active {
+  background-color: rgb(240 240 255);
+   
+  margin-left: 1rem;
+    border-right:5px solid rgb(100 115 255);
+    border-radius: 1rem 0 0 1rem ;
+}
+.menu-item.upgrade .nav-link {
+  background-color: #28a745;
+  color: #fff;
+  text-align: center;
+  padding-bottom: 0;
+}
+.menu-item.upgrade .nav-link.active {
+  background-color: #218838;
+}
+.upgrade-btn {
+  border: none!important;
+  border-radius: 1rem;
+
+}
+.icon-active {
+  color: rgb(100 115 255);
+}

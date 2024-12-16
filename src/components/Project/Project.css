@@ -1,0 +1,26 @@
+/* src/components/Project/Project.css */
+
+.project-card {
+    width: 100%;
+    border-radius: 1rem!important;
+    border: none!important;
+}
+
+.avatar {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
+
+.more-members {
+    line-height: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.progress-btn{
+    height: 20px;
+    /* padding: 10px; */
+    background-color: rgb(240 240 255);
+    color: rgb(145 155 250);
+}
