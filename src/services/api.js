@@ -1,7 +1,7 @@
 // /src/api.js
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5000/api';
+const API_URL = 'https://assessment-project-backend.onrender.com/api';
 
 export const createTask = (task) => axios.post(`${API_URL}/tasks`, task);
 export const updateTask = (id, task) => axios.put(`${API_URL}/tasks/${id}`, task);
