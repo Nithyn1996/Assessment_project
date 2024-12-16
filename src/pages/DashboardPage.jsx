@@ -15,18 +15,18 @@ const DashboardPage = () => {
             <Header />
             <div className="content">
                 <div className="row">
-                        <div className="col-sm-12 col-md-4 col-items"> 
+                        <div className="col-sm-12 col-md-6 col-lg-4 col-items"> 
                             <div className=""> 
                                 <Project /> 
                             </div> 
                         </div>
-                        <div className="col-sm-12 col-md-4 col-items">
+                        <div className="col-sm-12 col-md-6 col-lg-4 col-items">
                             <div className="mb-4 ">
                                 <TaskList />
                             </div>
                             <Timeline />
                         </div>
-                        <div className="col-sm-12 col-md-4 col-items">
+                        <div className="col-sm-12 col-md-6 col-lg-4 col-items">
                             <Calendar />
                             <div className="mt-4">
                                 <MessageList />
